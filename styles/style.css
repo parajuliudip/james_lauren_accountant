@@ -543,6 +543,65 @@ i {
   height: 120px;
 }
 
+.blog-faq-divider {
+  height: 1px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #2f4c73;
+  opacity: 10%;
+}
+.case-studies {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.questions {
+  margin-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list-1,
+.list-2,
+.list-3,
+.list-4 {
+  padding: 20px;
+  background-color: #f3f9ff;
+  margin-bottom: 20px;
+}
+.question-1,
+.question-2,
+.question-3,
+.question-4 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0a1119;
+  cursor: pointer;
+}
+.answer-1,
+.answer-2,
+.answer-3,
+.answer-4 {
+  border-left: 2px solid #0094fa;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 20px;
+  padding-right: 50px;
+  color: #3c434b;
+  font-size: 16px;
+  line-height: 28px;
+}
+.active-faq {
+  transition: 1.4s ease;
+}
+.hidden {
+  display: none;
+}
+.blog-heading {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
