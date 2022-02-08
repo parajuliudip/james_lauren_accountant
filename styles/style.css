@@ -376,7 +376,71 @@
   color: white;
 }
 
+.case-studies-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.case-studies h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 45%;
+}
+.case-studies a {
+  margin-top: 0;
+}
+.case-studies-tag {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #3c434b;
+  margin-bottom: 20px;
+}
 
+.case-studies-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.case-studies-list-1,
+.case-studies-list-2,
+.case-studies-list-3 {
+  background-color: #f3f9ff;
+  position: relative;
+}
+.sub-tag {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 8.82%, #000e18 100%);
+  width: 100%;
+  margin-top: -60px;
+  color: white;
+}
+.case-studies-list-1,
+.case-studies-list-2 {
+  margin-right: 30px;
+}
+.case-study-content {
+  padding: 20px;
+}
+.sub-tag p {
+  padding-left: 20px;
+}
+
+.case-study-content span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(10, 17, 25, 0.8);
+}
+.case-study-content p {
+  color: rgba(10, 17, 25, 0.8);
+  font-size: 16px;
+  line-height: 28px;
+}
 
 
 .blogs-and-tips {
